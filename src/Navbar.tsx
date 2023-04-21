@@ -3,14 +3,23 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <div className='nav-bar'>
-        <div className='LocationButton d-flex'>
-            <div className='aligncenter'>
+    <div className='nav-bar d-flex justify-content-around align-items-center'>
+        <div className='left-nav-block'>
+            <div className='aligncenter d-flex'>
                 <span className='locationIcon'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" focusable="false" role="presentation"><path fill-rule="evenodd" d="M16 10.5a4 4 0 1 0-8 0 4 4 0 0 0 8 0ZM12 8a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="m17.461 16.975.455-.593c1.162-1.547 1.903-2.832 2.224-3.856.234-.747.36-1.54.36-2.36C20.5 5.657 16.694 2 12.002 2 7.307 2 3.5 5.656 3.5 10.167c0 .825.127 1.622.364 2.373.242.766.72 1.68 1.434 2.74l.376.543c.265.37.555.756.871 1.158l.495.616c.171.21.35.423.534.641l.573.665.612.69.652.714.691.739.73.763.118.121.263.27.789.8.4-.404.77-.788.73-.764.692-.74c.112-.12.223-.241.331-.36l.633-.703c.204-.23.402-.456.593-.678l.553-.654c.09-.107.177-.213.262-.317l.495-.617ZM12.001 3.5C15.923 3.5 19 6.541 19 10.167c0 .665-.102 1.306-.291 1.91-.245.778-.863 1.9-1.987 3.398l-.44.573-.481.6-.245.297-.546.644c-.184.213-.374.43-.57.653l-.626.695c-.105.114-.21.23-.318.346l-.003.004-.68.726-.72.752-.092.095-.09-.094-.72-.751-.678-.726-.639-.7-.598-.673-.562-.652a45.794 45.794 0 0 1-.509-.61l-.485-.606c-.3-.381-.573-.744-.819-1.089l-.364-.525c-.672-.999-1.062-1.774-1.242-2.346A6.368 6.368 0 0 1 5 10.167C5 6.54 8.078 3.5 12.002 3.5Z" clip-rule="evenodd"></path></svg>
                 </span>
+                <span className='pincode'>48201</span>
             </div>
-            <span className='pincode'>48201</span>
+            <div>
+                {/* select store */}
+            </div>
+        </div>
+        <div className='right-nav-block d-flex'>
+           <p className='px-1'>Register</p>
+           <p className='px-1'>Weekly Ad</p>
+           <p className='px-1'>RedCard</p>
+           <p className='px-1'>Weekly Ad</p>
         </div>
     </div>
     <div className='nav-bar2'>

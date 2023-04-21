@@ -52,7 +52,7 @@ code {
   width:80px;
 }
 
-.LocationButton{
+.left-nav-block{
   height: 36px;
   border-color: transparent;
   -webkit-box-align: center;
@@ -63,6 +63,12 @@ code {
   background: transparent;
   display: inline-flex;
 }
+.right-nav-block{
+  font-family: "Helvetica for Target", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+}
 
 .align-center{
   -webkit-box-align: center;
@@ -70,7 +76,6 @@ code {
 }
 
 .locationIcon{
-  padding: 2px;
   width: 20px;
   height: 20px;
   fill: white;
