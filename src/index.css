@@ -4,10 +4,86 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  line-height: 1.4285;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar{
+  height: 50px;
+  background-color: rgb(204, 0, 0);
+}
+.nav-bar2{
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  
+}
+.options{
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo{
+  display: inline-block;
+    flex-shrink: 0;
+    color: rgb(204, 0, 0);
+    fill: rgb(204, 0, 0);
+    width: 48px;
+    height: 48px;
+    font-family: "Helvetica for Target", HelveticaForTarget, Targetica, "HelveticaNeue for Target", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4285;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+}
+.logo svg{
+  height: 80px;
+  width:80px;
+}
+
+.LocationButton{
+  height: 36px;
+  border-color: transparent;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 8px 12px 8px 8px;
+  border-radius: 8px;
+  margin: 0px 4px;
+  background: transparent;
+  display: inline-flex;
+}
+
+.align-center{
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.locationIcon{
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  fill: white;
+  height: 16px;
+  display: inline-block;
+}
+.pincode{
+  display: block;
+  width: 100%;
+  text-align: left;
+  white-space: break-spaces;
+  max-width: 25ch;
+  margin-left: 8px;
+  color: white;
+  font-size: 12px !important;
 }
